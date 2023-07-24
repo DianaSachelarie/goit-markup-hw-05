@@ -16,9 +16,9 @@
         <nav class="main-navigation">
           <a href="index.html" class="logo"><span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
           <ul class="navigation-list">
-            <li><a href="index.html" class="active">Studio</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="">Contacts</a></li>
+            <li><a href="index.html" class="link-navigation active">Studio</a></li>
+            <li><a href="portfolio.html" class="link-navigation">Portfolio</a></li>
+            <li><a href="" class="link-navigation">Contacts</a></li>
           </ul>
         </nav>
         <div class="header-contact">
@@ -39,7 +39,7 @@
     <main>
       <section class="hero-section">
         <h1 class="hero-heading">EFFECTIVE SOLUTIONS FOR <span style = "display: block;">YOUR BUSINESS</span></h1>
-        <button class="hero-btn" type="button">Request our service</button>
+        <button data-modal-open class="hero-btn" type="button">Request our service</button>
       </section>
 
       <section class="benefits">
@@ -74,12 +74,21 @@
           <ul class="features-list">
             <li class="features-list-item">
               <img src="./images/service-img-1.jpg" alt="Developer writing code" width="370" height="294" class="features-list-img">
+
+                <div class="features-list-overlay"><span class="features-list-overlay-desc">DESKTOP APPS</span></div>
+
             </li>
             <li class="features-list-item">
               <img src="./images/service-img-2.jpg" alt="Developer working on mobile applications" width="370" height="294" class="features-list-img">
+              <div class="features-list-overlay">
+                <span class="features-list-overlay-desc">Mobile APPS</span>
+              </div>
             </li>
             <li class="features-list-item">
               <img src="./images/service-img-3.jpg" alt="Developer editing styles on tablet" width="370" height="294" class="features-list-img">
+              <div class="features-list-overlay">
+                <span class="features-list-overlay-desc">DESIGN SOLUTIONS</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -298,7 +307,7 @@
     <footer class="global-footer">
       <div class="container">
         <div class="footer-main-part">
-        <a href="index.html" class="footer-logo"><span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
+        <a href="index.html" class="logo"><span class="logo-1">Web</span><span class="logo-2">Studio</span></a>
         <address class="address">
           <ul class="footer-address-list">
             <li class="footer-address-list-item">
